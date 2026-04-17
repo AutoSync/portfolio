@@ -37,6 +37,7 @@
     "arquitetura": "Frontend (Next.js) → API REST (Node.js) → Banco de Dados (Firebase) → Sistema de Vendas e Coleta de Candidatos.",
     "resultados": "Site moderno e funcional, com sistema de vendas e coleta de candidatos implementados.",
     "tecnologias": ["Next.js", "TypeScript", "Node.js", "Firebase"],
+    "link_repo": "",
     "link_demo": "https://granjavilela.vercel.com",
     "imagem": "/images/granjavilela.png"
   },
