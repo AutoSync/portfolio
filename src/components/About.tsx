@@ -1,8 +1,10 @@
 export default function About() {
   const skills = [
-    { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "Python", "REST APIs", "PostgreSQL"] },
-    { category: "DevOps", items: ["Docker", "CI/CD", "Git", "Linux"] },
+    { category: "Linguagens", items: ["JavaScript", "TypeScript", "Python", "C/C++", "C#/.NET", "Java"] },
+    { category: "Frontend", items: ["React", "Next.js", "React Native", "TailwindCSS", "ShadCN/UI"] },
+    { category: "Backend", items: ["Node.js", "Express", "FastAPI", "Flask"] },
+    { category: "IA & Dados", items: ["OpenAI API", "TensorFlow", "Scikit-learn", "OpenCV"] },
+    { category: "DevOps", items: ["Docker", "Git", "GitHub Actions", "Figma", "Postman"] },
   ];
 
   return (
@@ -20,12 +22,13 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-4">Quem sou eu</h3>
             <div className="space-y-4 text-[var(--color-text-secondary)] leading-relaxed">
               <p>
-                Sou um desenvolvedor apaixonado por resolver problemas complexos com
-                código limpo e arquitetura bem pensada.
+                Sou apaixonado por tecnologia e por criar soluções inteligentes que
+                unem inovação, eficiência e design funcional.
               </p>
               <p>
-                Meu foco está em construir soluções que não apenas funcionem, mas que
-                sejam escaláveis, mantíveis e entreguem valor real.
+                Tenho experiência no desenvolvimento de sistemas web, aplicações em
+                React, Next.js, Node.js, e integração com Python para automação e
+                inteligência artificial.
               </p>
               <p>
                 Busco constantemente evoluir, aprendendo novas tecnologias e

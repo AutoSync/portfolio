@@ -19,7 +19,7 @@ export default function Header() {
       <nav className="glass mx-auto mt-4 max-w-5xl rounded-2xl px-6 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-gradient">
-          &lt;Dev /&gt;
+          &lt;Erick Andrade /&gt;
         </Link>
 
         {/* Desktop Nav */}

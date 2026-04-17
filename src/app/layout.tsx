@@ -3,12 +3,12 @@ import { ThemeProvider } from "@/context/ThemeProvider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portfólio | Desenvolvedor Full Stack",
+  title: "Erick Andrade | Desenvolvedor Full Stack",
   description:
-    "Portfólio profissional — projetos, arquitetura e soluções de software.",
+    "Portfólio de Erick Andrade — projetos, arquitetura e soluções de software.",
   openGraph: {
-    title: "Portfólio | Desenvolvedor Full Stack",
-    description: "Projetos, arquitetura e soluções de software.",
+    title: "Erick Andrade | Desenvolvedor Full Stack",
+    description: "Projetos, arquitetura e soluções de software por Erick Andrade.",
     type: "website",
   },
 };

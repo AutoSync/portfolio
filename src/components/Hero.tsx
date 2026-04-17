@@ -14,13 +14,13 @@ export default function Hero() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-          Olá, eu sou{" "}
-          <span className="text-gradient">Seu Nome</span>
+          Olá, eu sou {" "}
+          <span className="text-gradient">Erick Andrade</span>
         </h1>
 
         <p className="text-lg md:text-xl text-[var(--color-text-secondary)] mb-10 max-w-2xl mx-auto leading-relaxed">
-          Desenvolvedor Full Stack especializado em construir soluções escaláveis
-          com arquitetura limpa e foco em resultados.
+          Desenvolvedor Full Stack &amp; Engenheiro de Software — apaixonado por criar
+          soluções inteligentes que unem inovação, eficiência e design funcional.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

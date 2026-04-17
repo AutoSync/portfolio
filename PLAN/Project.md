@@ -150,7 +150,7 @@ Cada projeto deve conter: Contexto · Problema · Solução · Arquitetura · Te
 
 ## 7. Riscos e Mitigações
 
-| Risco               | Impacto | Mitigação              |
+| Risco                | Impacto | Mitigação              |
 | -------------------- | ------- | ---------------------- |
 | Portfólio genérico   | Alto    | Foco em projetos reais |
 | Falta de contexto    | Alto    | Documentar decisões    |
