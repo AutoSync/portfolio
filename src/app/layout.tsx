@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   title: "Erick Andrade | Desenvolvedor Full Stack",
   description:
     "Portfólio de Erick Andrade — projetos, arquitetura e soluções de software.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/icon.svg",
+  },
   openGraph: {
     title: "Erick Andrade | Desenvolvedor Full Stack",
     description: "Projetos, arquitetura e soluções de software por Erick Andrade.",
