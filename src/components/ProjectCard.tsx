@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 export interface Project {
   id: string;
   nome: string;
@@ -18,7 +20,7 @@ export default function ProjectCard({ project }: { project: Project }) {
         <div className="h-48 bg-gradient-to-br from-indigo-500/20 to-pink-500/20 flex items-center justify-center">
           {project.imagem ? (
             <img
-              src={project.imagem}
+              src={`${basePath}${project.imagem}`}
               alt={project.nome}
               className="w-full h-full object-cover"
             />

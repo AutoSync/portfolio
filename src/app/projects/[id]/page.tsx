@@ -4,6 +4,8 @@ import projects from "@/data/projects.json";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
+const basePath = process.env.NODE_ENV === "production" ? "/portfolio" : "";
+
 export function generateStaticParams() {
   return projects.map((p) => ({ id: p.id }));
 }
@@ -56,7 +58,7 @@ export default async function ProjectPage({
           <div className="glass rounded-2xl h-64 md:h-80 mb-10 flex items-center justify-center">
             {project.imagem ? (
               <img
-                src={project.imagem}
+                src={`${basePath}${project.imagem}`}
                 alt={project.nome}
                 className="w-full h-full object-cover rounded-2xl"
               />
